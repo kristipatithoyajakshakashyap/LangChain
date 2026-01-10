@@ -1,32 +1,43 @@
-langchain
+# Core
 python-dotenv
 ipykernel
+pandas
+numexpr
+validators
+
+# LangChain ecosystem
+langchain
 langchain-community
-pypdf
-bs4
-arxiv
-pymupdf
-wikipedia
 langchain-text-splitters
 langchain-openai
-chromadb
-sentence_transformers
-langchain_huggingface
-faiss-cpu
-langchain_chroma
-duckdb
-pandas
-openai
+langchain-huggingface
 langchain-groq
-duckduckgo_search==5.3.1b1
+langchain-chroma
+
+# LLM / Embeddings (PyTorch only)
+sentence-transformers
+torch
+faiss-cpu
+chromadb
+
+# Data loaders
+pypdf
 pymupdf
-arxiv
+bs4
 wikipedia
+arxiv
+duckduckgo_search
+youtube_transcript_api
+unstructured[pdf]
+pytube
+
+# DB
+duckdb
 mysql-connector-python
 SQLAlchemy
-validators==0.28.1
-youtube_transcript_api
-unstructured
-pytube
-numexpr
+
+# Hugging Face
 huggingface_hub
+
+# Streamlit
+streamlit
