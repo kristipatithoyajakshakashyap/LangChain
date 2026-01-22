@@ -13,8 +13,9 @@ langchain-openai
 langchain-huggingface
 langchain-groq
 langchain-chroma
+langchain_nvidia_ai_endpoints
 
-# LLM / Embeddings (PyTorch only)
+# LLM / Embeddings
 sentence-transformers
 torch
 faiss-cpu
