@@ -36,6 +36,9 @@ pytube
 duckdb
 mysql-connector-python
 SQLAlchemy
+pinecone
+pinecone-text
+pinecone-notebooks
 
 # Hugging Face
 huggingface_hub
